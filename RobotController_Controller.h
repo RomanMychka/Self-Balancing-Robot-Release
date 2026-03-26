@@ -88,7 +88,7 @@ public:
             return;
         }
 
-        else if (fabsf(targetAngle) <= FALL_ANGLE)
+        else if (fabsf(currentAngle) <= FALL_ANGLE)
         {
             resetFallen();
         }
