@@ -22,7 +22,7 @@ private:
 
     const char *page; // вказівник на HTML-сторінку, передається ззовні
 
-    static constexpr unsigned long TIMEOUT_MS = 50;
+    static constexpr unsigned long TIMEOUT_MS = 200;
 
 public:
     explicit ControlPage_Router(const char *page) : page(page) {}
